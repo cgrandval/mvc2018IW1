@@ -138,7 +138,7 @@
             <li class="breadcrumb-item active">Overview</li>
           </ol>
 
-          <?php include $this->v;?>
+          <?php include $this->v; ?>
 
         </div>
         <!-- /.container-fluid -->
