@@ -1,7 +1,8 @@
 <?php
 
-namespace Models;
-use Core\BaseSQL;
+namespace Mvc\Models;
+use Mvc\Core\BaseSQL;
+use Mvc\Core\Routing;
 
 class Users extends BaseSQL
 {

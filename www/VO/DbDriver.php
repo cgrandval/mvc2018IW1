@@ -1,6 +1,6 @@
 <?php
 
-namespace VO;
+namespace Mvc\VO;
 
 class DbDriver
 {

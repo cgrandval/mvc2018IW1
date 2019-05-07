@@ -1,12 +1,12 @@
 <?php
 
-namespace Core;
+namespace Mvc\Core;
 
-use VO\DbDriver;
-use VO\DbHost;
-use VO\DbName;
-use VO\DbPwd;
-use VO\DbUser;
+use Mvc\VO\DbDriver;
+use Mvc\VO\DbHost;
+use Mvc\VO\DbName;
+use Mvc\VO\DbPwd;
+use Mvc\VO\DbUser;
 
 class BaseSQL
 {

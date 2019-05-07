@@ -1,7 +1,7 @@
 <?php
 
-namespace Controller;
-use Core\View;
+namespace Mvc\Controllers;
+use Mvc\Core\View;
 
 class PagesController
 {

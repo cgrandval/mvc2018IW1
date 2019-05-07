@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace Mvc\Core;
 
 class Routing
 {
@@ -17,12 +17,11 @@ class Routing
             }
             $c = ucfirst($routes[$slug]['controller']).'Controller';
             $a = $routes[$slug]['action'].'Action';
-            $cPath = 'controllers/'.$c.'.class.php';
         } else {
-            return ['c' => null, 'a' => null, 'cPath' => null];
+            return ['c' => null, 'a' => null];
         }
 
-        return ['c' => $c, 'a' => $a, 'cPath' => $cPath];
+        return ['c' => $c, 'a' => $a];
     }
 
     public static function getSlug($c, $a)

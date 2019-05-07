@@ -1,8 +1,13 @@
 <?php
 
-use Models\Users;
-use Controller\UsersController;
-use Controller\PagesController;
+use Mvc\Models\Users;
+use Mvc\Controllers\UsersController;
+use Mvc\Controllers\PagesController;
+use Mvc\VO\DbDriver;
+use Mvc\VO\DbHost;
+use Mvc\VO\DbName;
+use Mvc\VO\DbUser;
+use Mvc\VO\DbPwd;
 
 return [
     DbDriver::class => function($container) {
